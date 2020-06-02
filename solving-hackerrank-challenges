@@ -1,0 +1,30 @@
+#First challenge, print Hello, World!
+
+print ("Hello, World!");
+
+
+#Second challenge, if/else training 
+
+var = int(input("Type a number beetween 1 and 100: "))
+
+if var%2 > 0:
+    print ("Weird");
+
+else:
+    if var >= 2 <=5:
+        print ("Not Weird");
+
+    elif var >=6 <=20:
+        print ("Weird");
+
+    else:
+        print ("Not Weird");
+        
+#Third challenge, basic math
+
+n1 = int(input());
+n2 = int(input());
+
+print n1+n2;
+print n1-n2;
+print n1*n2;
