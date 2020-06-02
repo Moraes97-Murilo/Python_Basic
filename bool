@@ -1,0 +1,22 @@
+Bb = [True,False,True,False,True,False,True];
+Ka = [False,True,True,False,True,True,False];
+Rq = [True,False,True,False,False,True,False];
+Ht = [True,True,False,True,False,False,True];
+Mr = [True,True,False,True,False,False,True];
+Gt = [False,True,True,False,False,False,True];
+Mt = [True,False,True,False,False,True,False];
+Ad = [False,True,False,False,True,True,False];
+Kl = [False,False,False,False,True,True,False];
+Bn = [True,False,False,True,False,False,True];
+Jl = [True,True,False,True,False,False,True];
+Cv = [True,False,True,False,False,False,True];
+Jp = [True,False,False,True,False,False,True];
+Is = [True,False,True,True,False,True,False];
+Pr = [True,False,False,False,True,False,True];
+Bt = [False,False,False,False,True,True,False];
+Gl = [True,False,False,False,False,False,True];
+Mi = [True,False,True,False,True,True,False];
+Al = [True,False,True,True,False,False,True];
+Je = [False,False,True,False,False,False,True];
+
+print (Bb,Is,Je);
