@@ -1,6 +1,6 @@
 #First challenge, print Hello, World!
 
-print ("Hello, World!");
+print ("Hello, World!")
 
 
 #Second challenge, if/else training 
@@ -8,23 +8,46 @@ print ("Hello, World!");
 var = int(input("Type a number beetween 1 and 100: "))
 
 if var%2 > 0:
-    print ("Weird");
+    print ("Weird")
 
 else:
     if var >= 2 <=5:
-        print ("Not Weird");
+        print ("Not Weird")
 
     elif var >=6 <=20:
-        print ("Weird");
+        print ("Weird")
 
     else:
-        print ("Not Weird");
+        print ("Not Weird")
         
-#Third challenge, basic math
+#Third challenge, basic math 1
 
-n1 = int(input());
-n2 = int(input());
+n1 = int(input())
+n2 = int(input())
 
-print n1+n2;
-print n1-n2;
-print n1*n2;
+print n1+n2
+print n1-n2
+print n1*n2
+
+#Fourth challenge, basic math 2
+
+n1 = int(input())
+n2 = int(input())
+
+print (n1 // n2)
+print (n1/n2)
+
+
+#fifth challenge,read an integer N, print i**2 till N
+   #my favorite solution
+   [x**2 for x in range(int(input()))]
+   
+   #the solution accepted by the hackerrank
+    a = int(input())
+    b = 0
+
+    while a > b:
+        print (b**2)
+        b += 1
+        
+
