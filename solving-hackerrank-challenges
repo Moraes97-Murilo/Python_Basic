@@ -50,4 +50,21 @@ print (n1/n2)
         print (b**2)
         b += 1
         
+#sixth challenge, leap year calculator
 
+def is_leap(year):
+    leap = False
+
+    if year%400 == 0:
+        leap = True
+
+    else:
+        if year%100 == 0:
+            leap = False
+        elif year%4 == 0:
+            leap = True
+ 
+    return leap
+
+year = int(input("Type a year above 1900: "))
+print is_leap(year)
