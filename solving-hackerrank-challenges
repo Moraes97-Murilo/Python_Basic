@@ -68,3 +68,10 @@ def is_leap(year):
 
 year = int(input("Type a year above 1900: "))
 print is_leap(year)
+
+#seventh challenge, print functions
+n = int(input())
+for i in range(1,n+1):
+    print (i, end='')
+    
+    
