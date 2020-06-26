@@ -1,0 +1,75 @@
+#First challenge, print Hello, World!
+
+print ("Hello, World!")
+
+
+#Second challenge, if/else training 
+
+var = int(input("Type a number beetween 1 and 100: "))
+
+if var%2 > 0:
+    print ("Weird")
+
+else:
+    if var >= 2 <=5:
+        print ("Not Weird")
+
+    elif var >=6 <=20:
+        print ("Weird")
+
+    else:
+        print ("Not Weird")
+        
+#Third challenge, basic math 1
+
+n1 = int(input())
+n2 = int(input())
+
+print n1+n2
+print n1-n2
+print n1*n2
+
+#Fourth challenge, basic math 2
+
+n1 = int(input())
+n2 = int(input())
+
+print (n1 // n2)
+print (n1/n2)
+
+
+#fifth challenge,read an integer N, print i**2 till N
+   #my favorite solution
+   [x**2 for x in range(int(input()))]
+   
+   #the solution accepted by the hackerrank
+    a = int(input())
+    b = 0
+
+    while a > b:
+        print (b**2)
+        b += 1
+        
+#sixth challenge, leap year calculator
+
+def is_leap(year):
+    leap = False
+
+    if year%400 == 0:
+        leap = True
+
+    else:
+        if year%100 == 0:
+            leap = False
+        elif year%4 == 0:
+            leap = True
+ 
+    return leap
+
+year = int(input("Type a year above 1900: "))
+print is_leap(year)
+
+#seventh challenge, print functions
+n = int(input())
+for i in range(1,n+1):
+    print (i, end='')
