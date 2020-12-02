@@ -32,4 +32,4 @@ for i in g:
 
 plt.scatter(f,g, marker='s', color='g', label='square')
 plt.plot(f,g, color='r')
-plt.show()
+plt.savefig("scatterplot.png")
